@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exames Laboratoriais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>exames laboratoriais</h1>
+    <div class="container">
+        <label for="exame">Selecione o exame:</label>
+        <select name="exame" id="seletor">
+            <option value="" disabled selected>Escolha uma opção</option>
+            <option value="gli">Glicose</option>
+            <option value="ure">Ureia</option>
+            <option value="cre">Creatinina</option>
+            <option value="ast">AST</option>
+            <option value="alt">ALT</option>
+            <option value="fe">Ferro</option>
+            <option value="col">Colesterol Total</option>
+            <option value="tri">Triglicerídeos</option>
+            <option value="na">Sódio</option>
+            <option value="k">Potássio</option>
+            <option value="tsh">TSH</option>
+            <option value="t3t">T3 Total</option>
+            <option value="t3l">T3 Livre</option>
+            <option value="t4t">T4 Total</option>
+            <option value="t4l">T4 Livre</option>
+            <option value="tp">TP</option>
+            <option value="ttpa">TTPa</option>
+        </select>
+
+        <label for="sexo">Selecione o sexo:</label>
+        <select name="sexo" id="sexo">
+            <option value="" disabled selected>Escolha uma opção</option>
+            <option value="f">Feminino</option>
+            <option value="m">Masculino</option>
+        </select>
+
+        <p> Digite o resultado:
+        <input type="number" id="result">
+        </p>
+
+        <button id="botao">Verificar</button>
+        <div id="res">
+            <span></span>
+            <small><a href=""></a></small>
+        </div>
+    </div>
+    <footer>&#169; 2024</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
